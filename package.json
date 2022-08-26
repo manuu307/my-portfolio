@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "emailjs-com": "^3.2.0",
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "18.2.0",
+    "swiper": "^8.2.4",
+    "wowjs": "^1.1.3"
+  }
+}
