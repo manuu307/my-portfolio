@@ -10,28 +10,29 @@ const aboutData = {
   phn: "+598 92 447 494",
   email: "manuu307@gmail.com",
   serviceLists: [
-    "Website Development",
-    "Digital Experience",
-    "Content Marketing",
-    "Social Media Design",
-    "Shared Web Hosting",
+    "Frontend & Backend Development",
+    "Automation Scripts",
+    "Data Scraping",
+    "Cloud Infrastructure",
+    "Ethical Hacking",
   ],
   skills: {
     programming: [
-      { name: "WordPress", value: "60" },
-      { name: "JavaScript", value: "90" },
-      { name: "TypeScript", value: "70" },
+      { name: "WordPress", value: "40" },
+      { name: "NodeJs", value: "100" },
       { name: "VueJs", value: "80" },
-      { name: "ReactJs", value: "80" },
-      { name: "ReactNative", value: "70" },
-      { name: "Python", value: "80" },
+      { name: "ReactJs", value: "100" },
+      { name: "ReactNative", value: "60" },
+      { name: "Python", value: "100" },
     ],
     hacking: [
-      { name: "Linux", value: "95" },
-      { name: "BurpSuite", value: "95" },
-      { name: "OWASP Top 10", value: "95" },
-      { name: "OSINT", value: "95" },
-      { name: "Python Scripts", value: "90" },
+      { name: "Linux", value: "85" },
+      { name: "Networking", value: "85" },
+      { name: "Information Gathering", value: "95" },
+      { name: "WebApp Analysis", value: "95" },
+      { name: "Vulnerability Analysis", value: "95" },
+      { name: "Exploitation", value: "85" },
+      { name: "Scripting", value: "100" },
     ],
     language: [
       { name: "Spanish", value: "100" },
@@ -40,24 +41,31 @@ const aboutData = {
     ],
   },
   education: [
-    { year: "2014 - 2016", unv: "Oxford Univercity", degree: "Master Degree" },
-    { year: "2010 - 2014", unv: "Texas Univercity", degree: "Bachelor Degree" },
-    { year: "2008 - 2010", unv: "Simone College", degree: "Associate Degree" },
+    { year: "2009 - 2012", unv: "Institute of Technology", degree: "" },
   ],
   working: [
     {
-      year: "2018 - running",
-      company: "Envato Elements",
-      deg: "Exclusive Author",
+      year: "2012 - 2020",
+      company: "Independant",
+      deg: "Techincal Service",
     },
-    { year: "2015 - 2018", company: "Avo Corporation", deg: "Content Manager" },
-    { year: "2012 - 2015", company: "FC Barcelona", deg: "Football Player" },
+    { year: "2019 - 2021", company: "Freelance", deg: "Full Stack Developer" },
+    {
+      year: "2021 - Running",
+      company: "Hacknoid",
+      deg: "Ethical Hacker | Python Developer",
+    },
+    {
+      year: "2021 - Running",
+      company: "Mercurio",
+      deg: "Full Stack Javascript Developer | Python Data Scraping and Analysis",
+    },
   ],
   partnersLogos: [
-    "img/partners/1.png",
-    "img/partners/2.png",
-    "img/partners/3.png",
-    "img/partners/4.png",
+    "img/partners/hacknoid.png",
+    "img/partners/mercurio.png",
+    "img/partners/valkiria.png",
+    "img/partners/coffee.gif",
   ],
 };
 
@@ -75,13 +83,8 @@ const About = () => {
           <div className="edrea_tm_about">
             <div className="left">
               <div className="image">
-                <img src="img/thumbs/1-1.jpg" alt="" />
-                <div
-                  className="main"
-                  data-img-url="https://mercuriopi.com/img/team/manuel.png"
-                  width={664}
-                  height={657}
-                />
+                <img src="img/about/2.jpg" alt="Profile photo" />
+                <div className="main" data-img-url="img/about/2.jpg" />
               </div>
             </div>
             <div className="right">
@@ -96,9 +99,14 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>Manuel Barreiro.</span> I'm a computer boy
-                  since 8 years old when i touched my first PC. Not long after,
-                  i sat up a MU server and that was my first I.T job (lol).
+                  I'm <span>Manuel Barreiro.</span> I love computers since i was
+                  8 years old when i touched my first PC. From that day on, i've
+                  made all kinds of stuff: Gaming, Blogs, Websites, Scripts,
+                  Hacking, Game Servers, Graphic Design, you name it! i'm
+                  currently working in Cybersecurity and as Full-Stack Developer
+                  adding some infrastructure on the stack (GCP, Azure). Besides,
+                  a friend and i maintain a MuOnline server. I'm very poractive,
+                  and i'm always learning.
                 </p>
               </div>
               <div className="edrea_tm_button">

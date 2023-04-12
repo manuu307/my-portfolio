@@ -82,7 +82,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-linkedin-rect" />
+                    <i className="icon-linkedin-2" />
                     <span>
                       <a href="https://www.linkedin.com/in/manuel-barreiro-96598093/">
                         @Linkedin

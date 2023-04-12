@@ -18,7 +18,10 @@ const AboutPopup = ({ open, close, aboutData }) => {
             <div className="author">
               <div className="avatar_image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
-                <div className="main" data-img-url="img/about/1.jpg" />
+                <div
+                  className="main"
+                  data-img-url="img/about/matrix-avatar-2.jpg"
+                />
               </div>
               <div className="short">
                 <h3 className="name">
@@ -77,7 +80,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </ul>
             </div>
             <div className="edrea_tm_button full">
-              <a href="img/about/1.jpg" download>
+              <a href="img/about/Manuel Barreiro CV.pdf" download>
                 Download CV
               </a>
             </div>
@@ -95,10 +98,14 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                  Hello everybody! My name is <span>David Parker.</span> I am a
-                  graphic designer, and {`I'm`} very passionate and dedicated to
-                  my work. With 20 years experience as a professional a graphic
-                  designer, I have acquired the skills and knowledge.
+                  Hi Everybody! I'm <span>Manuel Barreiro.</span> I love
+                  computers since i was 8 years old when i touched my first PC.
+                  From that day on, i've made all kinds of stuff: Gaming, Blogs,
+                  Websites, Scripts, Hacking, Game Servers, Graphic Design, you
+                  name it! i'm currently working in Cybersecurity and as
+                  Full-Stack Developer adding some infrastructure on the stack
+                  (GCP, Azure). Besides, a friend and i maintain a MuOnline
+                  server. I'm very poractive, and i'm always learning.
                 </p>
               </div>
             </div>
@@ -164,7 +171,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               <div className="about_title">
                 <h3>
                   <span>
-                    Programming <span className="coloring">Skills</span>
+                    Hacking <span className="coloring">Skills</span>
                   </span>
                 </h3>
               </div>
@@ -327,20 +334,23 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       <div className="text">
                         <i className="icon-quote-left" />
                         <p>
-                          Beautiful minimalist design and great, fast response
-                          with support. Highly recommend. Thanks Marketify!
+                          In a short period of time, he assisted me in
+                          automating a complex process within my company. He not
+                          only taught my employees how to manage the new system
+                          but also provided support to ensure the entire
+                          operation was running at 100%.
                         </p>
                       </div>
                       <div className="details">
                         <div className="image">
                           <div
                             className="main"
-                            data-img-url="img/testimonials/1.jpg"
+                            data-img-url="img/testimonials/carolina.jpg"
                           />
                         </div>
                         <div className="info">
-                          <h3>Alexander Walker</h3>
-                          <span>Graphic Designer</span>
+                          <h3>Carolina Tapia</h3>
+                          <span>Administrative</span>
                         </div>
                       </div>
                     </div>
@@ -350,20 +360,26 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       <div className="text">
                         <i className="icon-quote-left" />
                         <p>
-                          These people really know what they are doing! Great
-                          customer support availability and supperb kindness.
+                          My online presence was in dire need of a boost, and I
+                          couldn't be more grateful to the team who helped me
+                          achieve just that. They created an impressive website,
+                          ran successful social media ads, set up an effective
+                          email campaign, and provided in-depth analytics to
+                          track my progress. The support I received throughout
+                          the entire process was exceptional, making it an
+                          overwhelmingly positive experience overall.
                         </p>
                       </div>
                       <div className="details">
                         <div className="image">
                           <div
                             className="main"
-                            data-img-url="img/testimonials/2.jpg"
+                            data-img-url="img/testimonials/monica.jpeg"
                           />
                         </div>
                         <div className="info">
-                          <h3>Armin Van Buuren</h3>
-                          <span>Content Manager</span>
+                          <h3>Monica Alvarez</h3>
+                          <span>Entrepreneur</span>
                         </div>
                       </div>
                     </div>
@@ -373,21 +389,24 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       <div className="text">
                         <i className="icon-quote-left" />
                         <p>
-                          I had a little problem and the support was just
-                          awesome to quickly solve the situation. And keep going
-                          on.
+                          We developed an exceptional project together for a
+                          real estate company, encompassing both front-end and
+                          back-end solutions. The results were astounding,
+                          leaving our clients very satisfied with the outcome.
+                          The project was a total success, exceeding all
+                          expectations.
                         </p>
                       </div>
                       <div className="details">
                         <div className="image">
                           <div
                             className="main"
-                            data-img-url="img/testimonials/3.jpg"
+                            data-img-url="img/testimonials/santiago.jpg"
                           />
                         </div>
                         <div className="info">
-                          <h3>Baraka Clinton</h3>
-                          <span>English Teacher</span>
+                          <h3>Santiago Cedeira</h3>
+                          <span>Software Developer</span>
                         </div>
                       </div>
                     </div>
