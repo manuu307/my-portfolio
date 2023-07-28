@@ -5,10 +5,7 @@ import PortfolioModal from "./popup/PortfolioModal";
 
 const Portfolio = () => {
   const [modal, setModal] = useState(false);
-  const [underConstruction, setUnderConstruction] = useState(true);
-  if (underConstruction) {
-    return <h1>Under construction...</h1>;
-  } else {
+
     return (
       <Fragment>
         <PortfolioModal open={modal} close={() => setModal(false)} />
@@ -26,61 +23,67 @@ const Portfolio = () => {
                     <SwiperSlide className="swiper-slide">
                       <div className="list_inner">
                         <div className="image">
-                          <img src="img/thumbs/1-1.jpg" alt="" />
+                          <img src="img/portfolio/carolinat.jpg" alt="" />
                           <div
                             className="main"
-                            data-img-url="img/portfolio/1.jpg"
+                            data-img-url="img/portfolio/carolinat.jpg"
+                            target='_blank'
+                            rel="noreferrer"
                           />
                         </div>
                         <div className="details">
-                          <h3>Sweet Fruit</h3>
-                          <span>Vimeo</span>
+                          <h3>Portfolio</h3>
+                          <span>Web</span>
                         </div>
                         <a
                           className="edrea_tm_full_link popup-vimeo"
-                          href="//player.vimeo.com/video/337293658?autoplay=1"
+                          href="https://carot.valkiriasolutions.com"
                         />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
                       <div className="list_inner">
                         <div className="image">
-                          <img src="img/thumbs/1-1.jpg" alt="" />
+                          <img src="img/portfolio/valkiriasolutions.jpg" alt="" />
                           <div
                             className="main"
-                            data-img-url="img/portfolio/2.jpg"
+                            data-img-url="img/portfolio/valkiriasolutions.jpg"
                           />
                         </div>
                         <div className="details">
-                          <h3>Good Present</h3>
-                          <span>Youtube</span>
+                          <h3>Marketing Site</h3>
+                          <span>Web</span>
                         </div>
                         <a
                           className="edrea_tm_full_link popup-youtube"
-                          href="//www.youtube.com/embed/7e90gBu4pas?autoplay=1"
+                          href="https://www.valkiriasolutions.com"
+                          target='_blank'
+                            rel="noreferrer"
                         />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
                       <div className="list_inner">
                         <div className="image">
-                          <img src="img/thumbs/1-1.jpg" alt="" />
+                          <img src="img/portfolio/mercuriopi.jpg" alt="" />
                           <div
                             className="main"
-                            data-img-url="img/portfolio/3.jpg"
+                            data-img-url="img/portfolio/mercuriopi.jpg"
                           />
                         </div>
                         <div className="details">
-                          <h3>Mockup Cream</h3>
-                          <span>Soundcloud</span>
+                          <h3>Analytics Site</h3>
+                          <span>Web</span>
                         </div>
                         <a
                           className="edrea_tm_full_link soundcloude_link mfp-iframe audio"
-                          href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                          href="https://mercuriopi.com"
+                          target='_blank'
+                          rel="noreferrer"
                         />
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
+                    {/* <SwiperSlide className="swiper-slide">
                       <div className="list_inner">
                         <div className="image">
                           <img src="img/thumbs/1-1.jpg" alt="" />
@@ -137,7 +140,7 @@ const Portfolio = () => {
                           href="img/portfolio/6.jpg"
                         />
                       </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                   </div>
                   <div className="edrea_tm_swiper_progress fill">
                     <div className="my_pagination_in">
@@ -171,6 +174,5 @@ const Portfolio = () => {
         </div>
       </Fragment>
     );
-  }
 };
 export default Portfolio;
