@@ -14,7 +14,7 @@ const Portfolio = () => {
             <div className="edrea_tm_portfolio swiper-section">
               <div className="edrea_tm_main_title">
                 <h3>
-                  Creative <span className="coloring">Portfolio</span>
+                  Techie <span className="coloring">Portfolio</span>
                 </h3>
               </div>
               <div className="portfolio_list gallery_zoom">
@@ -38,6 +38,8 @@ const Portfolio = () => {
                         <a
                           className="edrea_tm_full_link popup-vimeo"
                           href="https://carot.valkiriasolutions.com"
+                          target='_blank'
+                          rel="noreferrer"
                         />
                       </div>
                     </SwiperSlide>
@@ -58,7 +60,7 @@ const Portfolio = () => {
                           className="edrea_tm_full_link popup-youtube"
                           href="https://www.valkiriasolutions.com"
                           target='_blank'
-                            rel="noreferrer"
+                          rel="noreferrer"
                         />
                       </div>
                     </SwiperSlide>
@@ -77,7 +79,7 @@ const Portfolio = () => {
                         </div>
                         <a
                           className="edrea_tm_full_link soundcloude_link mfp-iframe audio"
-                          href="https://mercuriopi.com"
+                          href="https://mercuriopi.com/"
                           target='_blank'
                           rel="noreferrer"
                         />
