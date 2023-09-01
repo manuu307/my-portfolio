@@ -55,7 +55,7 @@ const MobileHeader = () => {
               </li>
               <li className={activeNav("news")}>
                 <a href="#news" onClick={() => onClick("news")}>
-                  News
+                  Blog
                 </a>
               </li>
               <li className={activeNav("contact")}>

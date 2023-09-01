@@ -68,7 +68,13 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-phone" />
                     <span>
-                      <a href="#">+598 92 447 494</a>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://wa.me/+59892447494?text=Hey"
+                      >
+                        +598 92 447 494
+                      </a>
                     </span>
                   </div>
                 </li>
@@ -76,7 +82,13 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="mailto:example@gmail.com">manuu307@gmail.com</a>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="mailto:example@gmail.com"
+                      >
+                        mbarreiro@valkiriasolutions.com
+                      </a>
                     </span>
                   </div>
                 </li>
@@ -84,7 +96,11 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-linkedin-2" />
                     <span>
-                      <a href="https://www.linkedin.com/in/manuel-barreiro-96598093/">
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/manuel-barreiro-96598093/"
+                      >
                         @Linkedin
                       </a>
                     </span>

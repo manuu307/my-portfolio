@@ -104,8 +104,10 @@ const AboutPopup = ({ open, close, aboutData }) => {
                   Websites, Scripts, Hacking, Game Servers, Graphic Design, you
                   name it! i'm currently working in Cybersecurity and as
                   Full-Stack Developer adding some infrastructure on the stack
-                  (GCP, Azure). Besides, a friend and i maintain a MuOnline
-                  server. I'm very poractive, and i'm always learning.
+                  (GCP, Azure). Besides, My partner and I created a company, I
+                  am in charge of the IT area and she is in charge of
+                  administration and marketing. I'm very poractive, and i'm
+                  always learning.
                 </p>
               </div>
             </div>
